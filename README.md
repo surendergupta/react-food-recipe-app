@@ -19,7 +19,7 @@ The app fetches recipes based on user input and displays them in a clean card la
 
 ## Screenshots
 
-![Screenshot of the app](./public/screenshots/desktop.png)\
+![Screenshot of the app](./public/screenshots/desktop.png)
 > Screenshot of the app
 
 ---
@@ -33,69 +33,74 @@ git clone https://github.com/surendergupta/react-food-recipe-app.git
 cd react-food-recipe-app
 ```
 
-Install dependencies:
+## Install dependencies:
 
-bash
-Copy
-Edit
+```bash
 npm install
-Run the development server:
+```
 
-bash
-Copy
-Edit
+## Run the development server:
+
+```bash
 npm run dev
+```
+
 Open http://localhost:5173 to view the app in your browser.
 
-Technologies Used
-React (Functional Components, Hooks)
+---
 
-React Bootstrap for UI components and styling
+## Technologies Used
+- React (Functional Components, Hooks)
+- React Bootstrap for UI components and styling
+- TheMealDB API for fetching recipe data
+- Vite as the build tool
 
-TheMealDB API for fetching recipe data
+---
 
-Vite as the build tool
-
-File Structure
-bash
-Copy
-Edit
+## File Structure
+```bash
 src/
   ├── Components/
   │     └── Recipe/
   │           └── Recipe.jsx        # Recipe card component
   ├── App.jsx                      # Main app component
   ├── App.css                     # Styles
+  ├── index.css                   # Styles
   └── main.jsx                    # React entry point
-How to Use
-Enter a keyword in the search bar (e.g., "chicken", "pasta").
+```
 
-Click the "Search" button or press "Enter".
+---
 
-Browse through the list of recipes.
+## How to Use
+1. Enter a keyword in the search bar (e.g., "chicken", "pasta").
+2. Click the "Search" button or press "Enter".
+3. Browse through the list of recipes.
+4. If no recipes are found, a friendly message will be shown.
+5. If there is an error fetching data, an error alert will appear.
 
-If no recipes are found, a friendly message will be shown.
+---
 
-If there is an error fetching data, an error alert will appear.
-
-API Reference
+## API Reference
 This project uses the free TheMealDB API for recipe data.
 
-Example API endpoint:
+### Example API endpoint:
 https://www.themealdb.com/api/json/v1/1/search.php?s=chicken
 
-Future Improvements
-Add pagination or infinite scroll for search results
+---
 
-Implement filters by category, area, or ingredient
+## Future Improvements
+- Add pagination or infinite scroll for search results
+- Implement filters by category, area, or ingredient
+- Add user favorites or bookmarks
+- Improve UI with animations and transitions
+- Add unit and integration tests
 
-Add user favorites or bookmarks
+---
 
-Improve UI with animations and transitions
-
-Add unit and integration tests
-
-License
+## License
 This project is open-source and available under the MIT License.
 
-Author
+---
+
+## Author
+Made with ❤️ by [Surender Gupta](https://www.linkedin.com/in/surender-gupta/)
